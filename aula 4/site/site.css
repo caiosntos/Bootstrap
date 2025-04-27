@@ -1,0 +1,69 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    color: black;
+    font-size: 25px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+#change-theme,
+label[for="change-theme"] {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.bi{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.bi-moon{
+    display: none;
+}
+
+.btn{
+    background-color: #444;
+    padding: auto;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    background-origin: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.dark, .dark header{
+    background-color: #263238;
+    color: #fff;
+}
+
+.dark h1, .dark h2, .dark h3, .dark p, .dark span {
+    color: #fff;
+}
+
+.dark a {
+    color: #fff;
+}
+
+.dark .bi-sun{
+    display: none;
+}
+
+.dark .bi-moon{
+    display: block;
+}
+
+strong{
+    margin-left: 2px;
+}
+p{
+    margin-left: 15px;
+}
+
+

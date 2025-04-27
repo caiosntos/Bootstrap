@@ -1,0 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.form-control{
+    resize: none;
+}
+
+h1{
+    font-size: 15px;
+}
